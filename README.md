@@ -21,10 +21,6 @@ Before you run the code, set up your environment and install FS-LLM (which is in
 
 ---
 
-## Attention
-
-It should be noted that this codebase contains most of the core code of Fedprism, and all files will be added after related work is published.
-
 ## Training
 1. **Run the Training Script:**  
    ```bash
@@ -35,4 +31,17 @@ It should be noted that this codebase contains most of the core code of Fedprism
    federate.save_to checkpoints/tldr_rlhf_gemma__tldr_choice_gemma_fedprism_u3.ckpt \
    expname tldr/rlhf_gemma/tldr_choice_gemma_fedprism_u3
    ```
+
+## How to cite our paper
+
+```
+@inproceedings{wang2026beyond,
+  title={Beyond Client Clustering: Fine-Grained Preference Alignment in Federated RLHF via Self-Evolving Routing},
+  author={Wang, Ke and Fu, Shaojing and Luo, Yuchuan and Deng, Guilin and Chen, Silong and Yuan, Zheng and Liu, Lin},
+  booktitle={Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence},
+  pages={4958--4966},
+  year={2026},
+  organization={International Joint Conferences on Artificial Intelligence Organization}
+}
+```
 
